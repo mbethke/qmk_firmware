@@ -1,0 +1,22 @@
+{
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "matrix_pins": {
+        "direct": [
+            ["GP26", "GP27", "GP28", "GP29"]
+        ]
+    },
+    "ws2812": {
+        "pin": "GP17",
+        "driver": "vendor"
+    },
+    "rgblight": {
+        "led_count": 1,
+        "max_brightness": 40,
+        "animations": {
+            "breathing": true,
+            "rainbow_mood": true,
+            "rainbow_swirl": true
+        }
+    }
+}
